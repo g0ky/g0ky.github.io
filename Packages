@@ -6,10 +6,10 @@ Architecture: iphoneos-arm
 Author: Alo <bbscydia@gmail.com>
 Maintainer: Alo <bbscydia@gmail.com>
 Description: A fresh new look for your iPhone!
-Depiction: https://g0ky.gthub.io/depiction/alo.html
+Depiction: https://g0ky.github.io/depiction/alo.html
 Icon: https://worksbybbs.github.io/assets/images/Icons/RevaUI.png
 Sileodepiction: https://g0ky.github.io/sileo/alo.json
 Filename: ./debs/io.alo.none_1.0.2_iphoneos-arm.deb
 Size: 1123428
-MD5sum: fc5fbf0919cba99e14c9975213b54a46
+MD5sum: 32f55c7116d4b3d472599ff044ea4f96
 
