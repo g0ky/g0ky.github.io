@@ -1,0 +1,49 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://midnightchips.me/packages/snapback/banner.png",
+  "tintColor": "#228b22",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "title": "TimeMachine for iOS 10.3.0+ arm64 devices",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 346.4533333333333}",
+          "screenshots": [
+            {
+              "accessibilityText": "SnapBack",
+              "url": "https://midnightchips.me/packages/snapback/1.png",
+              "fullSizeURL": "https://midnightchips.me/packages/snapback/1.png"
+            },
+            {
+              "accessibilityText": "SnapBack",
+              "url": "https://midnightchips.me/packages/snapback/2.png",
+              "fullSizeURL": "https://midnightchips.me/packages/snapback/2.png"
+            },
+            {
+              "accessibilityText": "SnapBack",
+              "url": "https://midnightchips.me/packages/snapback/3.png",
+              "fullSizeURL": "https://midnightchips.me/packages/snapback/3.png"
+            },
+            {
+              "accessibilityText": "SnapBack",
+              "url": "https://midnightchips.me/packages/snapback/4.png",
+              "fullSizeURL": "https://midnightchips.me/packages/snapback/4.png"
+            }
+          ],
+          "class": "DepictionScreenshotsView"
+        },
+        {
+          "markdown": "Disclaimer: SnapBack has been tested thoroughly, but it is still beta software, so proceed with caution. \n\nNow then, what are apfs snapshots?\n\"Snapshots are a new feature of Apple's APFS filesystem. A snapshot is a point-in-time representation of a volume on your hard drive. Once the snapshot is taken, each file within that snapshot will be available on the snapshot in its exact state at the moment that the snapshot was taken, even if you delete the file.\"\nImagine taking a picture of your devices memory, and being able to jump back to that point in time whenever you want. Snapshots aren't known to take up to much space, but Var snapshots (the user partition, that holds your photos and apps) is more likely to take up a lot of space.\n\nWhen you first launch SnapBack, I urge you to create a root snapshot, so that you can always jump back to the moment after you installed SnapBack, as long as you can jailbreak.\n\nThose of you on iOS 11+, the root snapshot named \"orig-fs\" is the original snapshot that is either made right before you jailbroke the first time, or the snapshot that apple made when you updated your OS. Under no circumstance should you ever delete this Snapshot. It is your fallback to use Rollectra or Unc0vers reset FS option. Another word of warning, don't use Rollectra or Unc0vers reset FS option unless you really need to, as doing that will delete all of your APFS snapshots.\nIf you are able, revert using SnapBack so that you can retain your other snapshots.\n\nSnapBack can be used to jump between jailbreaks. In order to do this, take a root snapshot when you have a jailbreak setup the way you want, then jump back to the orig-fs snapshot. At this point you can jailbreak using a different jailbreak with no issues. Install SnapBack again, and if all went to plan you will be able to jump to your previous jailbreak snapshot and vice versa. This is a good way to try out other jailbreaks or to just have a fallback point in time when you had everything set up perfectly.\n\nWhen restoring var snapshots, if you jump to a snapshot that was signed in with a different iCloud account, you will be prompted over and over again to log into icloud. Simply open settings and sign out of the iCloud account to get rid of these messages.\n\nNotes:\n-  SnapBack requires your battery to be above 50% or to be plugged in.\n-  Even if the app appears to be frozen during the snapping process, wait.\n-  SnapBack is written for iOS 10.3.0+ for arm64 and arm64e devices only.\n\nSpecial thanks to:\nCreatureSurvive, \nPINPAL, \nthe_casle,\npwn20wnd,\nsbingner,\nSamg_is_a_Ninja\nTony, \nChilaxan and \nEasy-Z\n\nWarning: Do not attempt to revert while on low memory. Make sure you have a good amount of space before you revert just so it doesn’t fail. I can’t say an exact number as all snapshots when mounted are different sizes",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
