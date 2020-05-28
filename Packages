@@ -13,7 +13,7 @@ Depends: firmware (>=8.0), com.anemonetheming.anemone
 Author: G0ky
 Maintainer: Shuga, J Shenton, and CoolStar <sileo@shuga.co>
 Filename: debs//com.github.novacc_1.1_iphoneos-arm.deb
-Size: 630540
+Size: 3212
 MD5sum: AB64DE61C07F5A512CF0D13919DE401D
 SHA1: C28FA14FC9A10F6F82EB957F4D3EDD5447FE87F2
 SHA256: A9FBCFD48F0F72CB9B9215AABB97DC4F8C7D61F01A24515D3B749E81BFC5532E
