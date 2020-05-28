@@ -1,50 +1,13 @@
 {
   "class": "FeaturedBannersView",
-  "itemSize": "{263, 148}",
+  "itemSize": "{296, 148}",
   "itemCornerRadius": 10,
   "banners": [
     {
-       "url":"https://g0ky.github.io/images/maxresdefault.jpg",
-       "title":"TEST",
-       "package":"com.pxcex.plannerhack",
-       "hideShadow":false
-    },
-    {
-       "url":"https://g0ky.github.io/images/maxresdefault.jpg",
-       "title":"TEST",
-       "package":"com.pxcex.durecorderhack",
-       "hideShadow":false
-    },
-    {
-      "url": "https://g0ky.github.io/images/maxresdefault.jpg",
-      "title": "TEST",
-      "package": "com.pxcex.guardianhack",
-      "hideShadow": false
-    },
-    {
-      "url": "https://g0ky.github.io/images/maxresdefault.jpg",
-      "title": "TEST",
-      "package": "com.pxcex.jooxpremium",
-      "hideShadow": false
-    },
-    {
-      "url": "https://g0ky.github.io/images/maxresdefault.jpg",
-      "title": "TEST",
-      "package": "com.pxcex.focos",
-      "hideShadow": false
-    },
-      {
-         "url":"https://g0ky.github.io/images/maxresdefault.jpg",
-         "title":"TEST",
-         "package":"com.pxcex.enlightpixaloophack",
-         "hideShadow":false
-      },
-
-        {
-           "url":"https://g0ky.github.io/images/maxresdefault.jpg",
-           "title":"TEST",
-           "package":"com.pxcex.twitterrific5hack",
-           "hideShadow":false
-        },
+        "url": "https://raw.githubusercontent.com/sukarodo/repo.me/master/assets/Banners/RepoHeader.png",
+        "title": "Sample Package",
+        "package": "com.sukarodo.samplepackage",
+        "hideShadow": false
+    }
   ]
 }
