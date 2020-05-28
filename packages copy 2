@@ -1,0 +1,17 @@
+Package: com.marcos.prysm-novacc
+Name: Prysm NovaCC
+Version: 1.2.1
+Section: Themes
+Architecture: iphoneos-arm
+Author: Marcos <markos92@icloud.com>
+Maintainer: Marcos <markos92@icloud.com>
+Description: Redesign your control center with a new style.
+Depiction: https://g0ky.gitub.io/depictions/test.html
+SileoDepiction: https://g0ky.gitub.io/depictions/test.json
+Tag: compatible_min::ios11.3.1, compatible_max::ios13.5
+Size: 630450
+MD5sum: ce1bb1e5e74e1eea91b7767986cbddf2
+SHA1sum: 069c53aa2e17753fdddbdee78e5cbdcc592ba7c7
+SHA256sum: 7c76e80216def8874d6adbc26c380f4260c45e87fab4a6f87752132c4c099170
+Filename: debs//com.marcos.prysm-novacc_1.2.1_iphoneos-arm.deb
+
