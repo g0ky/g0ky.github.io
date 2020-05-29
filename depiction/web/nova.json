@@ -1,94 +1,105 @@
 {
-  "minVersion": "0.1",
-  "headerImage": "https://g0ky.github.io/assets/novacc/banner.jpg",
-  "tintColor": "#01DFD7",
-  "tabs": [
-    {
-      "tabname": "Details",
-      "views": [
-        {
-          "title": "NovaCC Theme",
-          "useBoldText": true,
-          "useBottomMargin": false,
-          "class": "DepictionSubheaderView"
-        },
-        {
-          "itemCornerRadius": 6,
-          "itemSize": "{160, 275.41333333333336}",
-          "screenshots": [
+   "minVersion": "0.1",
+   "class": "DepictionTabView",
+   "tintColor": "#01DFD7",
+   "headerImage": "https://g0ky.github.io/assets/novacc/banner.jpg",
+   "tabs": [
+      {
+         "tabname": "Details",
+         "class": "DepictionStackView",
+         "tintColor": "#01DFD7",
+         "views": [
             {
-              "accessibilityText": "Screenshot",
-              "url": "https://g0ky.github.io/assets/novacc/screenshot/wall1.jpg",
-              "fullSizeURL": "https://g0ky.github.io/assets/novacc/screenshot/wall1.jpg"
+               "class": "DepictionSubheaderView",
+               "useBoldText": true,
+               "useBottomMargin": false,
+               "title": "Description1"
+            },
+            {
+               "class": "DepictionMarkdownView",
+               "markdown": "<p>un /npaquete /n<\/p>",
+               "useRawFormat": true
+            },
+            {
+               "class": "DepictionSubheaderView",
+               "useBoldText": true,
+               "useBottomMargin": false,
+               "title": "newa"
+            },
+            {
+               "class": "DepictionScreenshotsView",
+               "itemCornerRadius": 6,
+               "itemSize": "{160, 284.44444444444}",
+               "screenshots": [
+                  {
+                     "accessibilityText": "Screenshot",
+                     "url": "https://g0ky.github.io/assets/novacc/screenshot/wall1.jpg",
+                     "fullSizeURL": "https://g0ky.github.io/assets/novacc/screenshot/wall1.jpg"
+                  }
+               ]
+            },
+            {
+               "class": "DepictionSeparatorView"
+            },
+            {
+               "class": "DepictionSubheaderView",
+               "useBoldText": true,
+               "useBottomMargin": false,
+               "title": "Informatione"
+            },
+            {
+               "class": "DepictionTableTextView",
+               "title": "Authore",
+               "text": "Cachetes"
+            },
+            {
+               "class": "DepictionTableTextView",
+               "title": "Version",
+               "text": "Latest Version Number"
+            },
+            {
+               "class": "DepictionTableTextView",
+               "title": "Price",
+               "text": "Free"
+            },
+            {
+               "class": "DepictionSpacerView",
+               "spacing": 16
+            },
+            {
+               "class": "DepictionStackView",
+               "views": [
+                  {
+                     "class": "DepictionTableButtonView",
+                     "title": "Support",
+                     "action": "mailto:markosg26@gmail.com",
+                     "openExternal": true
+                  }
+               ]
+            },
+            {
+               "class": "DepictionSpacerView",
+               "spacing": 16
             }
-          ],
-          "class": "DepictionScreenshotsView"
-        },
-        {
-          "markdown": "Changes",
-          "useSpacing": true,
-          "class": "DepictionMarkdownView"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "title": "Latest Version",
-          "class": "DepictionHeaderView"
-        },
-        {
-          "title": "Version",
-          "text": "1",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "title": "Released",
-          "text": "Today",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "title": "Price",
-          "text": "Free",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "title": "Developer",
-          "text": "Cachetes",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "title": "Contact Support",
-          "action": "mailto:markosg26@gmail.com",
-          "class": "DepictionTableButtonView"
-        },
-        {
-          "spacing": 16,
-          "class": "DepictionSpacerView"
-        },
-        {
-          "spacing": 20,
-          "class": "DepictionSpacerView"
-        }
-      ],
-      "class": "DepictionStackView"
-    },
-    {
-      "tabname": "Changelog",
-      "views": [
-		{
-          "title": "1",
-          "useBoldText": true,
-          "useBottomMargin": true,
-          "class": "DepictionSubheaderView"
-        },
-        {
-          "markdown": "\t\n\u2022 Version Changes",
-          "useSpacing": false,
-          "class": "DepictionMarkdownView"
-        }
-      ],
-      "class": "DepictionStackView"
-    }
-  ],
-  "class": "DepictionTabView"
+         ]
+      },
+      {
+         "tabname": "Changelog",
+         "class": "DepictionStackView",
+         "tintColor": "#01DFD7",
+         "views": [
+            {
+               "class": "DepictionSubheaderView",
+               "useBoldText": true,
+               "useBottomMargin": false,
+               "title": "1"
+            },
+            {
+               "class": "DepictionMarkdownView",
+               "markdown": "<ul>\n<li>bb<\/li>\n<\/ul>",
+               "useRawFormat": true
+            }
+         ]
+      }
+   ]
 }
