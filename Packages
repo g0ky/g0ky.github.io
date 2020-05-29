@@ -1,19 +1,22 @@
-Architecture: iphoneos-arm
 Package: com.github.novacc
 Name: NovaCC Theme
-Version: 1.1
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
 SileoDepiction: https://repo.shuga.co/depiction/native/heyitsshuga.pixeltheme.json
 ModernDepiction: https://repo.shuga.co/depiction/native/heyitsshuga.pixeltheme.json
 Icon: https://repo.shuga.co/assets/heyitsshuga.pixeltheme/icon.png
 Description: A recreation of the Google Pixel UI in Anemone.
 Homepage: https://shuga.co/repo
 Section: Themes
-Depends: firmware (>=8.0), com.anemonetheming.anemone
+Maintainer: G0ky
 Author: G0ky
-Maintainer: Shuga, J Shenton, and CoolStar <sileo@shuga.co>
-Size: 630538
-Filename: debs//com.github.novacc_1.1_iphoneos-arm.deb
-MD5sum: F11F635D6664F36DA80B72D3BC20032D
-SHA1: 74A5D7E7078B67A60AFE2A7150D55E8E61DF0B18
-SHA256: 86D4660C755A04154CE21F1283C0A3B93B8763DEDD4C588175248A27C7F6DC67
-Depiction: https://repo.shuga.co/depiction/web/heyitsshuga.pixeltheme.html
+Tag: purpose::extension, compatible_max::ios13.5
+Size: 630498
+Filename: debs//com.github.novacc_0.0.1_iphoneos-arm.deb
+MD5sum: 1AD1C18C70E3D29E42559781E292D6E9
+SHA1: BDFA9028AC6E767BAD2704F6E1B7CEF5AEDD5F20
+SHA256: 421D0D064318C62D7E71BED142CB4E068C8E7B53865C6AA309039AA36D2EA446
+
+
+
