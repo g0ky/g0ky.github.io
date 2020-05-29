@@ -13,11 +13,11 @@
                "class": "DepictionSubheaderView",
                "useBoldText": true,
                "useBottomMargin": false,
-               "title": "Description1"
+               "title": "Description"
             },
             {
                "class": "DepictionMarkdownView",
-               "markdown": "<p>un /npaquete /n<\/p>",
+               "markdown": "<p>un <br> paquete<\/p>",
                "useRawFormat": true
             },
             {
