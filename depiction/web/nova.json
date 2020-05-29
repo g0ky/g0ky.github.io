@@ -13,18 +13,18 @@
                "class": "DepictionSubheaderView",
                "useBoldText": true,
                "useBottomMargin": false,
-               "title": "Description"
+               "title": "Descripcion"
             },
             {
                "class": "DepictionMarkdownView",
-               "markdown": "<p>un <br> paquete<\/p>",
+               "markdown": "<p>NovaCC Theme es un tema para tu control center<\/p>",
                "useRawFormat": true
             },
             {
                "class": "DepictionSubheaderView",
                "useBoldText": true,
                "useBottomMargin": false,
-               "title": "newa"
+               "title": "Screenshot"
             },
             {
                "class": "DepictionScreenshotsView",
@@ -47,17 +47,17 @@
                "class": "DepictionSubheaderView",
                "useBoldText": true,
                "useBottomMargin": false,
-               "title": "Informatione"
+               "title": "Informacion"
             },
             {
                "class": "DepictionTableTextView",
-               "title": "Authore",
+               "title": "Autor",
                "text": "Cachetes"
             },
             {
                "class": "DepictionTableTextView",
                "title": "Version",
-               "text": "Latest Version Number"
+               "text": "1.0"
             },
             {
                "class": "DepictionTableTextView",
@@ -94,11 +94,11 @@
                "class": "DepictionSubheaderView",
                "useBoldText": true,
                "useBottomMargin": false,
-               "title": "1"
+               "title": "1.0"
             },
             {
                "class": "DepictionMarkdownView",
-               "markdown": "<ul>\n<li>bb<\/li>\n<\/ul>",
+               "markdown": "<ul>\n<li>Initial release<\/li>\n<\/ul>",
                "useRawFormat": true
             }
          ]
