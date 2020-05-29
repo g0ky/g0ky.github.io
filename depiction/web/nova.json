@@ -1,1 +1,94 @@
-{"headerImage":"https://g0ky.github.io/assets/novacc/banner.jpg","tintColor":"#4a6584","minVersion":"0.1","class":"DepictionTabView","tabs":[{"views":[{"class":"DepictionScreenshotsView","itemCornerRadius":8,"itemSize":"{225,400}","screenshots":[{"accessibilityText":"Screenshot","url":"https://g0ky.github.io/assets/novacc/screenshot/wall1.jpg"},{"accessibilityText":"Screenshot","url":"https://g0ky.github.io/assets/novacc/screenshot/wall2.jpg"}]},{"class":"DepictionMarkdownView","useSpacing":"true","markdown":"Theme for your control center Important Activate with iThemer or SnowBoard extension. This package requires Tweaks Prysm and Magma Evo to function like Filza 1) After installing Prysm NovaCC go in Folder location using filza Library/Themes/PrysmNovaCC.theme/bundle you'll find prysm folder copy that folder 2) Paste that folder in Library/Application Support folder. 3) apply Prysm NovaCC using snowboard or ithemer then respring device. 4) Adjust toggles from control center settings which is with black background icons 5)Now respring your device If you need help with your configuration contact me on my Twitter @Mgarcia2892."},{"class":"DepictionSpacerView"},{"class":"DepictionHeaderView","title":"Information"},{"class":"DepictionTableTextView","title":"Developer","text":"Cachetes"},{"class":"DepictionTableTextView","title":"Version","text":"1.1-stable"},{"class":"DepictionTableTextView","title":"Compatibility","text":"iOS 8.0 to 13.5"},{"class":"DepictionTableTextView","title":"Section","text":"Themes"},{"class":"DepictionSpacerView"},{"class":"DepictionTableButtonView","tintColor":"#4a6584","openExternal":"true","title":"Contact Support","action":"depiction-https://g0ky.github.io/depiction/native/help/novacc.json"},{"class":"DepictionLabelView","textColor":"#999999","alignment":1,"fontSize":"10.0","text":"Cachetes"}],"class":"DepictionStackView","tabname":"Details"},{"views":[{"class":"DepictionMarkdownView","markdown":"#### Version 1.1-stable\n\nStart keeping track of changes on a per-update basis."},{"class":"DepictionLabelView","textColor":"#999999","alignment":1,"fontSize":"10.0","text":"Cachetes"}],"class":"DepictionStackView","tabname":"Changelog"}]}
+{
+  "minVersion": "0.1",
+  "headerImage": "https://g0ky.github.io/assets/novacc/banner.jpg",
+  "tintColor": "#01DFD7",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "title": "NovaCC Theme",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 275.41333333333336}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://g0ky.github.io/assets/novacc/screenshot/wall1.jpg",
+              "fullSizeURL": "https://g0ky.github.io/assets/novacc/screenshot/wall1.jpg"
+            }
+          ],
+          "class": "DepictionScreenshotsView"
+        },
+        {
+          "markdown": "Changes",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Latest Version",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Version",
+          "text": "1",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Released",
+          "text": "Today",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "Cachetes",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Contact Support",
+          "action": "mailto:markosg26@gmail.com",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "spacing": 16,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+		{
+          "title": "1",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\n\u2022 Version Changes",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
