@@ -3,8 +3,8 @@ Name: NovaCC Theme
 Depends: mobilesubstrate
 Version: 0.0.1
 Architecture: iphoneos-arm
-SileoDepiction: https://repo.shuga.co/depiction/native/heyitsshuga.pixeltheme.json
-ModernDepiction: https://repo.shuga.co/depiction/native/heyitsshuga.pixeltheme.json
+SileoDepiction: https://g0ky.github.io/depiction/web/nova.json
+ModernDepiction: https://g0ky.github.io/depiction/web/nova.json
 Icon: https://repo.shuga.co/assets/heyitsshuga.pixeltheme/icon.png
 Description: A recreation of the Google Pixel UI in Anemone.
 Homepage: https://shuga.co/repo
@@ -12,10 +12,10 @@ Section: Themes
 Maintainer: G0ky
 Author: G0ky
 Tag: purpose::extension, compatible_max::ios13.5
-Size: 630498
+Size: 630506
 Filename: debs//nova.deb
-MD5sum: 1ad1c18c70e3d29e42559781e292d6e9
-SHA1: bdfa9028ac6e767bad2704f6e1b7cef5aedd5f20
-SHA256: 421d0d064318c62d7e71bed142cb4e068c8e7b53865c6aa309039aa36d2ea446
+MD5sum: 533276d79aad20634d6e0338540f1fb5
+SHA1: f63a4e422f5447808039a5f31786b2792910d0b3
+SHA256: 03e9e0ca68e53b6840bbc31003ded67151c738e986c0f24ac05523d847d3aee4
 
 
