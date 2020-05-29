@@ -4,7 +4,7 @@ Depends: mobilesubstrate
 Version: 0.0.1
 Architecture: iphoneos-arm
 SileoDepiction: https://g0ky.github.io/depiction/web/nova.json
-ModernDepiction: https://g0ky.github.io/depiction/web/nova.json
+ModernDepiction: https://g0ky.github.io/depiction/web/nova.html
 Icon: https://repo.shuga.co/assets/heyitsshuga.pixeltheme/icon.png
 Description: A recreation of the Google Pixel UI in Anemone.
 Homepage: https://shuga.co/repo
@@ -12,10 +12,10 @@ Section: Themes
 Maintainer: G0ky
 Author: G0ky
 Tag: purpose::extension, compatible_max::ios13.5
-Size: 630506
+Size: 630510
 Filename: debs//nova.deb
-MD5sum: 533276d79aad20634d6e0338540f1fb5
-SHA1: f63a4e422f5447808039a5f31786b2792910d0b3
-SHA256: 03e9e0ca68e53b6840bbc31003ded67151c738e986c0f24ac05523d847d3aee4
+MD5sum: b3d6aab332de3cef2d86358765b11fdf
+SHA1: 5ef9b8656d5b325075d7ac8770e231922e7bb918
+SHA256: 0b8b21448d033249d3f72c3f5e6db19c7b61ceefab34f46437e698c1234f430ec42eda81576ff1e6b0dc85afb83c23a070bc887aca1f0f76ae2893c545a89017
 
 
