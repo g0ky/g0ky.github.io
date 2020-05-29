@@ -13,7 +13,7 @@ Maintainer: G0ky
 Author: G0ky
 Tag: purpose::extension, compatible_max::ios13.5
 Size: 630498
-Filename: debs//com.github.novacc_0.0.1_iphoneos-arm.deb
+Filename: debs//nova.deb
 MD5sum: 1AD1C18C70E3D29E42559781E292D6E9
 SHA1: BDFA9028AC6E767BAD2704F6E1B7CEF5AEDD5F20
 SHA256: 421D0D064318C62D7E71BED142CB4E068C8E7B53865C6AA309039AA36D2EA446
